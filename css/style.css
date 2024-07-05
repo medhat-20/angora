@@ -1,0 +1,508 @@
+/* *{
+
+    box-sizing: border-box;
+}
+body{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 
+{
+    line-height: 1.2
+}
+header{
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../image/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.about-name{
+
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    line-height: 40px;
+}
+.pharagraph{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.container{   
+    background-color: #fff;
+    margin-bottom: 3rem; 
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.line{
+    position: relative;
+}
+.line::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 12%;
+    height: 3px;
+    background-color: #0d6efd;
+}
+.ser{
+    position: relative;
+}
+.ser::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 3%;
+    height: 5px;
+    background-color: #0d6efd;
+    transform: translate(-50%);
+    
+}
+.header-services h2,.PORTFOLIO h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.services .fa-solid{
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+}
+.services .fa-regular{
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+}
+.services .card{
+    border: 2px solid transparent;
+    border-radius: 5%;
+    transition: all 2s 3s;
+}
+.services .card:hover .fa-solid{
+    background-color: #0d6efd;
+    color: white;
+    border-color: rgb(204, 204, 239);
+    transition: all .2s .1s;
+}
+.services .card:hover .fa-regular{
+    background-color: #0d6efd;
+    color: white;
+    border-color: rgb(204, 204, 239);
+    transition: all .2s .1s;
+} 
+.icons .fa-solid,.fa-regular{
+    border: 10px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+}
+.icons{
+    background-image: linear-gradient(rgba(29, 39, 236, 0.5),rgba(46, 55, 220, 0.5)) ,url(../image/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px 0px;
+}
+.PORTFOLIOP .fa-solid{
+    border: 3.4px solid #0d6efd;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 1.5rem;
+    color: #0d6efd;
+}
+.PORTFOLIOP .web{
+    color: #0d6efd;
+
+}
+
+.PORTFOLIOP .card img{
+
+transition: transform 1s;
+
+}
+
+.PORTFOLIOP .card:hover img{
+
+transform: scale(1.5,1.5);
+overflow: hidden;
+}
+.over{
+
+    overflow: hidden;
+}
+
+.testimonial{
+    background-image: linear-gradient(rgba(86, 112, 243, 0.5),rgba(30, 40, 243, 0.5)) ,url(../image/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.blog-imade{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.blog-text{
+
+    color: #4e4e4e;
+}
+.heart{
+
+    transform: translateY(-90%);
+}
+.email{
+    background-image: linear-gradient(rgba(14, 54, 255, 0.5),rgba(14, 23, 181, 0.5)) ,url(../image/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bord-email{
+    position: relative;
+    padding-bottom: 10px;
+}
+.bord-email::before{
+   
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 14%;
+    height: 3px;
+    background-color: #0d6efd;
+    transform: translateX(-355%);
+    
+}
+.email .btn-primary{
+
+    transform: translatex(150%);
+}
+.ph{
+
+    font-weight: 300;
+}
+.email ul{
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.social-media{
+
+    transform: translateX(-1%);
+}
+.finish-title{
+
+    box-shadow: inset 0 0 22px 0px #06234f5e;
+}
+.gmail{
+
+    padding-top: 100px;
+} */
+
+*{
+
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
+}
+body{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 
+{
+    line-height: 1.2
+}
+header{
+
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0.5))) ,url(../image/hero-bg.jpg);
+
+    background-image: -o-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../image/hero-bg.jpg);
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../image/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.about-name{
+
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    line-height: 40px;
+}
+.pharagraph{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.container{   
+    background-color: #fff;
+    margin-bottom: 3rem; 
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); 
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.line{
+    position: relative;
+}
+.line::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 12%;
+    height: 3px;
+    background-color: #0d6efd;
+}
+.ser{
+    position: relative;
+}
+.ser::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 3%;
+    height: 5px;
+    background-color: #0d6efd;
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%);
+    
+}
+.header-services h2,.PORTFOLIO h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.services .fa-solid{
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+}
+.services .fa-regular{
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+}
+.services .card{
+    border: 2px solid transparent;
+    border-radius: 5%;
+    -webkit-transition: all 2s 3s;
+    -o-transition: all 2s 3s;
+    transition: all 2s 3s;
+}
+.services .card:hover .fa-solid{
+    background-color: #0d6efd;
+    color: white;
+    border-color: rgb(204, 204, 239);
+    -webkit-transition: all .2s .1s;
+    -o-transition: all .2s .1s;
+    transition: all .2s .1s;
+}
+.services .card:hover .fa-regular{
+    background-color: #0d6efd;
+    color: white;
+    border-color: rgb(204, 204, 239);
+    -webkit-transition: all .2s .1s;
+    -o-transition: all .2s .1s;
+    transition: all .2s .1s;
+} 
+.icons .fa-solid,.fa-regular{
+    border: 10px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+}
+.icons{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(29, 39, 236, 0.5)),to(rgba(46, 55, 220, 0.5))) ,url(../image/counters-bg.jpg);
+    background-image: -o-linear-gradient(rgba(29, 39, 236, 0.5),rgba(46, 55, 220, 0.5)) ,url(../image/counters-bg.jpg);
+    background-image: linear-gradient(rgba(29, 39, 236, 0.5),rgba(46, 55, 220, 0.5)) ,url(../image/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px 0px;
+}
+.PORTFOLIOP .fa-solid{
+    border: 3.4px solid #0d6efd;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 1.5rem;
+    color: #0d6efd;
+}
+.PORTFOLIOP .web{
+    color: #0d6efd;
+
+}
+
+.PORTFOLIOP .card img{
+
+-webkit-transition: -webkit-transform 1s;
+
+transition: -webkit-transform 1s;
+
+-o-transition: transform 1s;
+
+transition: transform 1s;
+
+transition: transform 1s, -webkit-transform 1s;
+
+}
+
+.PORTFOLIOP .card:hover img{
+
+-webkit-transform: scale(1.5,1.5);
+
+    -ms-transform: scale(1.5,1.5);
+
+        transform: scale(1.5,1.5);
+overflow: hidden;
+}
+.over{
+
+    overflow: hidden;
+}
+
+.testimonial{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(86, 112, 243, 0.5)),to(rgba(30, 40, 243, 0.5))) ,url(../image/overlay-bg.jpg);
+    background-image: -o-linear-gradient(rgba(86, 112, 243, 0.5),rgba(30, 40, 243, 0.5)) ,url(../image/overlay-bg.jpg);
+    background-image: linear-gradient(rgba(86, 112, 243, 0.5),rgba(30, 40, 243, 0.5)) ,url(../image/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.blog-imade{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.blog-text{
+
+    color: #4e4e4e;
+}
+.heart{
+
+    -webkit-transform: translateY(-90%);
+
+        -ms-transform: translateY(-90%);
+
+            transform: translateY(-90%);
+}
+.email{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(14, 54, 255, 0.5)),to(rgba(14, 23, 181, 0.5))) ,url(../image/overlay-bg.jpg);
+    background-image: -o-linear-gradient(rgba(14, 54, 255, 0.5),rgba(14, 23, 181, 0.5)) ,url(../image/overlay-bg.jpg);
+    background-image: linear-gradient(rgba(14, 54, 255, 0.5),rgba(14, 23, 181, 0.5)) ,url(../image/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bord-email{
+    position: relative;
+    padding-bottom: 10px;
+}
+.bord-email::before{
+   
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 14%;
+    height: 3px;
+    background-color: #0d6efd;
+    -webkit-transform: translateX(-355%);
+        -ms-transform: translateX(-355%);
+            transform: translateX(-355%);
+    
+}
+.email .btn-primary{
+
+    -webkit-transform: translatex(150%);
+
+        -ms-transform: translatex(150%);
+
+            transform: translatex(150%);
+}
+.ph{
+
+    font-weight: 300;
+}
+.email ul{
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.social-media{
+
+    -webkit-transform: translateX(-1%);
+
+        -ms-transform: translateX(-1%);
+
+            transform: translateX(-1%);
+}
+.finish-title{
+
+    -webkit-box-shadow: inset 0 0 22px 0px #06234f5e;
+
+            box-shadow: inset 0 0 22px 0px #06234f5e;
+}
+.gmail{
+
+    padding-top: 100px;
+}
